@@ -105,7 +105,7 @@ span {
     display: grid;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: center;
     text-shadow:
 	-1px -1px 0 #000,
@@ -115,14 +115,10 @@ span {
     color: white;
 }
 
-.p1 {
-    margin: 10px;
-}
 
 @media (max-width: 600px) {
     .text {
         font-size: 1rem;
-        margin-left: 10%;
     }
     span {
         font-size: 3rem;
@@ -132,28 +128,12 @@ span {
     }
 }
 
-/* footer */
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   color: white;
-   text-align: center;
-   font-family: 'Oswald', sans-serif;
-   text-shadow:
-	-1px -1px 0 #000,
-	-1px -1px 0 #000,
-	-1px 1px 0 #000,
-	-1px 1px 0 #000;
-}
-
 /* about me page styling */
 .about-content {
     display: grid;
     grid-template-columns: 550px 550px;
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 2%;
     grid-auto-flow: row;
     color: white;
     font-family: 'Oswald', sans-serif;
@@ -165,7 +145,34 @@ span {
 	-1px 1px 0 #000;
 }
 
+@media (max-width: 600px) {
+    .about-content {
+        display: flex;
+        display: inline-block;
+        justify-content: center;
+    }
+    .about-image {
+        width: 380px;
+        margin-top: 15%;
+        margin-left: 25px;
+    }
+    .p2 {
+        text-align: center;
+    }
+
+
+}
+
 .about-me {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 0;
+    text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
 }
