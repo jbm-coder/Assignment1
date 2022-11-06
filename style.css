@@ -128,7 +128,7 @@ span {
     }
 }
 
-/* about me page styling */
+/* about me page */
 .about-content {
     display: grid;
     grid-template-columns: 550px 550px;
@@ -174,4 +174,40 @@ span {
 	-1px -1px 0 #000,
 	-1px 1px 0 #000,
 	-1px 1px 0 #000;
+}
+
+/* portfolio page */
+.portfolio_container {
+    display: grid;
+    gap: 2rem ;
+    margin-left: 10%;
+    width: 80%;
+    height: 40vh;
+    grid-template-columns: repeat(3, 1fr);
+
+
+}
+
+.portfolio_container img {
+    width: 250px;
+    height: 150px;
+    border-radius: 8px;
+
+
+}
+
+.portfolio-img {
+    background-color: rgba(214, 217, 228, 0.8);
+    border: 5px solid rgba(236, 226, 226, 0.8);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.img-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
 }
