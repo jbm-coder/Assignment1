@@ -2,13 +2,9 @@
 body {
     background-image: url(./images/image1.png);
     background-size: cover;
-}
-
-@media (min-width: 400px) {
-    background-image: ; {
-        width: 80%;
-        margin: 0 auto;
-    }
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* settings for heading */
@@ -64,22 +60,20 @@ h1 {
     }
 }
 
-.button {
+button {
     background-color:rgb(39, 37, 37);
     padding: 4px;
     font-size: small;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 5px 5px rgb(133, 132, 132);
-    margin-bottom: 60px;
+    margin-bottom: 50px;
     box-sizing: border-box;
     color: white;
   }
 
   @media (max-width: 400px) {
-    .button {
-        box-shadow: 1px 1px 1px 1px rgb(133, 132, 132);
-        margin-bottom: 40px;
+    button {
+        margin-bottom: 10px;
     }
 }
 
@@ -136,7 +130,6 @@ span {
     h2 {
         font-size: 2.5rem;
     }
-
 }
 
 /* footer */
@@ -153,4 +146,26 @@ span {
 	-1px -1px 0 #000,
 	-1px 1px 0 #000,
 	-1px 1px 0 #000;
+}
+
+/* about me page styling */
+.about-content {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    justify-content: center;
+    padding-top: 5%;
+    grid-auto-flow: row;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
+}
+
+.about-me {
+    margin-top: 0;
+    margin-bottom: 0;
 }
