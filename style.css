@@ -1,0 +1,156 @@
+/* bacckground image */
+body {
+    background-image: url(./images/image1.png);
+    background-size: cover;
+}
+
+@media (min-width: 400px) {
+    background-image: ; {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+/* settings for heading */
+.heading {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color:#fff;
+    text-shadow: 5px 5px 5px rgb(133, 132, 132);
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 5rem;
+    }
+}
+
+/* Setting for the social buttons */
+.socials {
+    display: flex;
+    justify-content: center;
+    column-count: 4;
+    column-gap: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;  
+}
+
+@media (max-width: 400px) {
+    .socials {
+        padding: 0;
+    }
+}
+
+/* settings for navigation and its buttons */
+.navigation {
+    font-family: 'Oswald', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);    
+    gap: 80px;
+    padding-top: 30px;;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .navigation {
+        grid-template-columns: repeat(4, 70px); 
+        gap: 15px;
+    }
+}
+
+.button {
+    background-color:rgb(39, 37, 37);
+    padding: 4px;
+    font-size: small;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(133, 132, 132);
+    margin-bottom: 60px;
+    box-sizing: border-box;
+    color: white;
+  }
+
+  @media (max-width: 400px) {
+    .button {
+        box-shadow: 1px 1px 1px 1px rgb(133, 132, 132);
+        margin-bottom: 40px;
+    }
+}
+
+/* container for content */
+h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
+    color: white;
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 3px rgb(133, 132, 132);
+    text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
+}
+
+/* content text */
+.text {
+    display: grid;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
+    color: white;
+}
+
+.p1 {
+    margin: 10px;
+}
+
+@media (max-width: 600px) {
+    .text {
+        font-size: 1rem;
+        margin-left: 10%;
+    }
+    span {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+
+}
+
+/* footer */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-family: 'Oswald', sans-serif;
+   text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
+}
