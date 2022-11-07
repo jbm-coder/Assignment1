@@ -5,14 +5,30 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    margin-bottom: 10rem;
 }
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+#jonas {
+    text-decoration: none;
+    }
 
 /* settings for heading */
 .heading {
-    font-size: 50px;
+    font-size: 6rem !important;
     text-align: center;
     font-family: 'Oswald', sans-serif;
-    color:#fff;
+    color:#ffffff !important;
     text-shadow: 5px 5px 5px rgb(133, 132, 132);
 }
 
@@ -23,7 +39,7 @@ h1 {
 
 @media (max-width: 400px) {
     h1 {
-        font-size: 5rem;
+        font-size: 5rem !important;
     }
 }
 
@@ -55,21 +71,10 @@ h1 {
 
 @media (max-width: 600px) {
     .navigation {
-        grid-template-columns: repeat(4, 70px); 
+        grid-template-columns: repeat(4, 100px); 
         gap: 15px;
     }
 }
-
-button {
-    background-color:rgb(39, 37, 37);
-    padding: 4px;
-    font-size: small;
-    text-align: center;
-    border-radius: 10px;
-    margin-bottom: 50px;
-    box-sizing: border-box;
-    color: white;
-  }
 
   @media (max-width: 400px) {
     button {
@@ -77,7 +82,22 @@ button {
     }
 }
 
+.nav-button{
+    padding: 0.3rem;
+    background-color: rgb(54, 53, 53);
+    color: #fdf7f7;
+    border-radius: 15px;
+    border: 2px solid #ffffff;
+    transition: 0.s;
+    text-align: center;
+}
+
+.nav-button:hover {
+    color: black;
+    background-color: white;
+}
 /* container for content */
+
 h2 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -88,16 +108,11 @@ h2 {
 	-1px 1px 0 #000;
     color: white;
     margin-bottom: 20px;
+    margin-top: 80px;
 }
 
 span {
-    font-size: 2.5rem;
-    text-shadow: 3px 3px 3px rgb(133, 132, 132);
-    text-shadow:
-	-1px -1px 0 #000,
-	-1px -1px 0 #000,
-	-1px 1px 0 #000,
-	-1px 1px 0 #000;
+    font-size: 2rem;
 }
 
 /* content text */
@@ -105,20 +120,20 @@ span {
     display: grid;
     justify-content: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-align: center;
+    color: white;
     text-shadow:
 	-1px -1px 0 #000,
 	-1px -1px 0 #000,
 	-1px 1px 0 #000,
 	-1px 1px 0 #000;
-    color: white;
 }
 
 
 @media (max-width: 600px) {
     .text {
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     span {
         font-size: 3rem;
@@ -126,6 +141,10 @@ span {
     h2 {
         font-size: 2.5rem;
     }
+}
+
+p {
+    margin-top: 0;
 }
 
 /* about me page */
@@ -179,12 +198,8 @@ span {
 /* portfolio page */
 .portfolio_container {
     display: grid;
-    gap: 2rem ;
-    margin-left: 10%;
-    width: 80%;
-    height: 40vh;
-    grid-template-columns: repeat(3, 1fr);
-
+  grid-gap: 300px;
+  grid-template-columns: repeat(auto-fill, 186px);
 
 }
 
@@ -192,14 +207,12 @@ span {
     width: 250px;
     height: 150px;
     border-radius: 8px;
-
-
 }
 
 .portfolio-img {
     background-color: rgba(214, 217, 228, 0.8);
     border: 5px solid rgba(236, 226, 226, 0.8);
-    width: 100%;
+    width: 500px;
     display: flex;
     justify-content: center;
     border-radius: 10px;
