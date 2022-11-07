@@ -86,7 +86,7 @@ h1 {
 /* settings for responsive mobile view */
 @media (max-width: 600px) {
     .navigation {
-        grid-template-columns: repeat(4, 100px); 
+        grid-template-columns: repeat(4, 80px); 
         gap: 15px;
     }
 }
@@ -247,9 +247,12 @@ p {
 
 .portfolio_container {
     display: grid;
-  grid-gap: 300px;
-  grid-template-columns: repeat(auto-fill, 186px);
-
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    margin-top: 80px;;
+    padding: 20px;
+    place-items: center;
+    max-width: 95%;
 }
 
 .portfolio_container img {
@@ -262,6 +265,7 @@ p {
     background-color: rgba(214, 217, 228, 0.8);
     border: 5px solid rgba(236, 226, 226, 0.8);
     width: 500px;
+    height: 350px;
     display: flex;
     justify-content: center;
     border-radius: 10px;
