@@ -1,4 +1,4 @@
-/* bacckground image */
+/* main bacckground image and its display settings */
 body {
     background-image: url(./images/image1.png);
     background-size: cover;
@@ -8,6 +8,7 @@ body {
     margin-bottom: 10rem;
 }
 
+/* display and style settings for footer */
 .footer{
     position: fixed;
     left: 0;
@@ -19,11 +20,17 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+
+
+/* Home Page */
+
+
+
+/* remove hyperlinks decoration from the header/title */
 #jonas {
     text-decoration: none;
     }
-
-/* settings for heading */
+/* styling and display setting for the header/title */
 .heading {
     font-size: 6rem !important;
     text-align: center;
@@ -32,18 +39,22 @@ body {
     text-shadow: 5px 5px 5px rgb(133, 132, 132);
 }
 
+/* spacing for the heading */
 h1 {
     margin-bottom: 0;
     margin-top: 0;
 }
 
+/* setting for responsive mobile view */
 @media (max-width: 400px) {
     h1 {
         font-size: 5rem !important;
     }
 }
 
-/* Setting for the social buttons */
+/* Social Buttons */
+
+/* display setting for the social buttons and how its displayed*/
 .socials {
     display: flex;
     justify-content: center;
@@ -53,13 +64,16 @@ h1 {
     padding-top: 20px;  
 }
 
+/* setting for responsive mobile view */
 @media (max-width: 400px) {
     .socials {
         padding: 0;
     }
 }
 
-/* settings for navigation and its buttons */
+/* Navigation Buttons */
+
+/* settings and styling for navigation buttons */
 .navigation {
     font-family: 'Oswald', sans-serif;
     display: grid;
@@ -69,6 +83,7 @@ h1 {
     justify-content: center;
 }
 
+/* settings for responsive mobile view */
 @media (max-width: 600px) {
     .navigation {
         grid-template-columns: repeat(4, 100px); 
@@ -82,6 +97,7 @@ h1 {
     }
 }
 
+/* display setting for the navigation button */
 .nav-button{
     padding: 0.3rem;
     background-color: rgb(54, 53, 53);
@@ -92,12 +108,15 @@ h1 {
     text-align: center;
 }
 
+/*  action settings for the navigation button */
 .nav-button:hover {
     color: black;
     background-color: white;
 }
-/* container for content */
 
+/* Main Text Body */
+
+/* container for content */
 h2 {
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -111,11 +130,12 @@ h2 {
     margin-top: 80px;
 }
 
+/* display and highlight setting for Jonas in the text body */
 span {
     font-size: 2rem;
 }
 
-/* content text */
+/* main text content style and display settings */
 .text {
     display: grid;
     justify-content: center;
@@ -130,7 +150,7 @@ span {
 	-1px 1px 0 #000;
 }
 
-
+/* setting for responsive mobile view */
 @media (max-width: 600px) {
     .text {
         font-size: 1.5rem;
@@ -143,20 +163,27 @@ span {
     }
 }
 
+/* display setting of the main body of text */
 p {
     margin-top: 0;
 }
 
-/* about me page */
-.about-content {
+
+
+/* About Me Page */
+
+
+
+/* about me page title display and styling settiings*/
+.about-subheading{
     display: grid;
-    grid-template-columns: 550px 550px;
-    justify-content: center;
-    padding-top: 2%;
-    grid-auto-flow: row;
-    color: white;
+    margin: 20px;
+    text-align: center;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 0;
     text-shadow:
 	-1px -1px 0 #000,
 	-1px -1px 0 #000,
@@ -164,6 +191,23 @@ p {
 	-1px 1px 0 #000;
 }
 
+/* about me page image and text display and styling settiings*/
+.about-content {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    justify-content: center;
+    grid-auto-flow: row;
+    color: white !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
+}
+
+/* setting for responsive mobile view */
 @media (max-width: 600px) {
     .about-content {
         display: flex;
@@ -181,21 +225,26 @@ p {
     }
 }
 
-.about-me {
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-shadow:
-	-1px -1px 0 #000,
-	-1px -1px 0 #000,
-	-1px 1px 0 #000,
-	-1px 1px 0 #000;
+/* styling settings for resume link */
+#resume {
+    text-decoration: none;
+    color: white !important;
+    font-size: 1.5rem !important;
 }
 
-/* portfolio page */
+#resume:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+
+
+
+/* Portfolio Page */
+
+
+
+
 .portfolio_container {
     display: grid;
   grid-gap: 300px;
