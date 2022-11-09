@@ -1,11 +1,11 @@
 /* main bacckground image and its display settings */
 body {
-  background-image: url(./images/image1.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  margin-bottom: 10rem;
+    background-image: url(./images/image1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 10rem;
 }
 
 /* display and style settings for footer */
@@ -130,14 +130,17 @@ span {
 
 /* main text content style and display settings */
 .text {
-  display: grid;
-  justify-content: center;
-  font-family: "Oswald", sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-  color: white;
-  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
-    -1px 1px 0 #000;
+    display: grid;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
 }
 
 /* setting for responsive mobile view */
@@ -161,74 +164,94 @@ p {
 /* About Me Page */
 
 /* about me page title display and styling settiings*/
-.about-subheading {
-  display: grid;
-  margin: 20px;
-  text-align: center;
-  font-family: "Oswald", sans-serif;
-  color: white;
-  font-size: 2rem;
-  margin-top: 20px;
-  margin-bottom: 0;
-  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
-    -1px 1px 0 #000;
+.about-subheading{
+    display: grid;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
+}
+
+.aboutme-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+
 }
 
 /* about me page image and text display and styling settiings*/
 .about-content {
-  display: grid;
-  grid-template-columns: 550px 550px;
-  justify-content: center;
-  grid-auto-flow: row;
-  color: white !important;
-  font-family: "Oswald", sans-serif;
-  font-size: 1.3rem;
-  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
-    -1px 1px 0 #000;
+    display: grid;
+    grid-template-columns: 550px 550px;
+    justify-content: center;
+    grid-auto-flow: row;
+    color: white !important;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    text-shadow:
+	-1px -1px 0 #000,
+	-1px -1px 0 #000,
+	-1px 1px 0 #000,
+	-1px 1px 0 #000;
 }
+
 
 /* setting for responsive mobile view */
 @media (max-width: 600px) {
-  .about-content {
-    display: flex;
-    display: inline-block;
-    justify-content: center;
-  }
-  .about-image {
-    width: 380px;
-    margin-top: 15%;
-    margin-left: 25px;
-  }
-  .p2 {
-    text-align: center;
-    font-size: 1.2rem;
-  }
+    .about-content {
+        display: flex;
+        display: inline-block;
+        justify-content: center;
+    }
+    .about-image {
+        width: 380px;
+        margin-top: 15%;
+        margin-left: 25px;
+    }
+    .p2 {
+        text-align: center;
+        font-size: 1.2rem;
+    }
 }
 
 /* styling settings for resume link */
 #resume {
-  text-decoration: none;
-  color: white !important;
-  font-size: 1.5rem !important;
+    text-decoration: none;
+    color: white !important;
+    font-size: 1.5rem !important;
 }
 
 #resume:hover {
-  color: black;
-  background-color: white;
-  border-radius: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 /* Portfolio Page */
 
+
+
+
 .portfolio_container {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  margin-top: 80px;
-  padding: 20px;
-  place-items: center;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    margin-top: 80px;;
+    padding: 20px;
+    place-items: center;
+    max-width: 95%;
 }
 
+/* postcard images display settings */
 .portfolio_container img {
   width: 250px;
   height: 150px;
@@ -236,18 +259,19 @@ p {
 }
 
 .portfolio-img {
-  background-color: rgba(214, 217, 228, 0.8);
-  border: 5px solid rgba(236, 226, 226, 0.8);
-  width: 500px;
-  height: 350px;
-  display: flex;
-  justify-content: center;
-  border-radius: 10px;
-  flex-wrap: wrap;
-  text-align: center;
+    background-color: rgba(214, 217, 228, 0.8);
+    border: 5px solid rgba(236, 226, 226, 0.8);
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .img-text {
-  font-family: "Oswald", sans-serif;
-  font-size: medium;
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
 }
+
