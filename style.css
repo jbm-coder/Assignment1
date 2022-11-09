@@ -1,347 +1,311 @@
 /* main bacckground image and its display settings */
 body {
-    background-image: url(./images/image1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    margin-bottom: 10rem;
-    margin-left: 0;
-    margin-right: 0;
+  background-image: url(./images/image1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin-bottom: 10rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 /* display and style settings for footer */
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:black;
-    color: white;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
 }
-
-
 
 /* Home Page */
 
-
-
 /* remove hyperlinks decoration from the header/title */
 #jonas {
-    text-decoration: none;
-    }
+  text-decoration: none;
+}
 /* styling and display setting for the header/title */
 .heading {
-    font-size: 6rem !important;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color:#ffffff !important;
-    text-shadow: 5px 5px 5px rgb(133, 132, 132);
+  font-size: 6rem !important;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff !important;
+  text-shadow: 5px 5px 5px rgb(133, 132, 132);
 }
 
 /* spacing for the heading */
 h1 {
-    margin-bottom: 0;
-    margin-top: 0;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 /* setting for responsive mobile view */
 @media (max-width: 400px) {
-    h1 {
-        font-size: 5rem !important;
-    }
+  h1 {
+    font-size: 5rem !important;
+  }
 }
 
 /* Social Buttons */
 
 /* display setting for the social buttons and how its displayed*/
 .socials {
-    display: flex;
-    justify-content: center;
-    column-count: 4;
-    column-gap: 40px;
-    padding-bottom: 20px;
-    padding-top: 20px;  
+  display: flex;
+  justify-content: center;
+  column-count: 4;
+  column-gap: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* setting for responsive mobile view */
 @media (max-width: 400px) {
-    .socials {
-        padding: 0;
-    }
+  .socials {
+    padding: 0;
+  }
 }
 
 /* Navigation Buttons */
 
 /* settings and styling for navigation buttons */
 .navigation {
-    font-family: 'Oswald', sans-serif;
-    display: grid;
-    grid-template-columns: repeat(4, 100px);    
-    gap: 80px;
-    padding-top: 30px;;
-    justify-content: center;
+  font-family: "Oswald", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 80px;
+  padding-top: 30px;
+  justify-content: center;
 }
 
 /* settings for responsive mobile view */
 @media (max-width: 600px) {
-    .navigation {
-        grid-template-columns: repeat(4, 80px); 
-        gap: 15px;
-    }
+  .navigation {
+    grid-template-columns: repeat(4, 80px);
+    gap: 15px;
+  }
 }
 
-  @media (max-width: 400px) {
-    button {
-        margin-bottom: 10px;
-    }
+@media (max-width: 400px) {
+  button {
+    margin-bottom: 10px;
+  }
 }
 
 /* display setting for the navigation button */
-.nav-button{
-    padding: 0.3rem;
-    background-color: rgb(54, 53, 53);
-    color: #fdf7f7;
-    border-radius: 15px;
-    border: 2px solid #ffffff;
-    transition: 0.s;
-    text-align: center;
+.nav-button {
+  padding: 0.3rem;
+  background-color: rgb(54, 53, 53);
+  color: #fdf7f7;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  transition: 0s;
+  text-align: center;
 }
 
 /*  action settings for the navigation button */
 .nav-button:hover {
-    color: black;
-    background-color: white;
+  color: black;
+  background-color: white;
 }
 
 /* Main Text Body */
 
 /* container for content */
 h2 {
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
-    text-shadow:
-	-1px -1px 0 #000,
-	-1px -1px 0 #000,
-	-1px 1px 0 #000,
-	-1px 1px 0 #000;
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 80px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
+    -1px 1px 0 #000;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 80px;
 }
 
 /* display and highlight setting for Jonas in the text body */
 span {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /* main text content style and display settings */
 .text {
-    display: grid;
-    grid-template-columns: 350px;
-    justify-content: center;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-    color: white;
-    text-shadow:
-	-1px -1px 0 #000,
-	-1px -1px 0 #000,
-	-1px 1px 0 #000,
-	-1px 1px 0 #000;
+  display: grid;
+  grid-template-columns: 350px;
+  justify-content: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: white;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
+    -1px 1px 0 #000;
 }
 
 /* setting for responsive mobile view */
 @media (max-width: 600px) {
-    .text {
-        font-size: 1.5rem;
-    }
-    span {
-        font-size: 3rem;
-    }
-    h2 {
-        font-size: 2.5rem;
-    }
+  .text {
+    font-size: 1.5rem;
+  }
+  span {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 
 /* display setting of the main body of text */
 p {
-    margin-top: 0;
+  margin-top: 0;
 }
-
-
 
 /* About Me Page */
 
-
-
 /* about me page title display and styling settiings*/
 .aboutme-subheading {
-    display: block;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 2rem;
-    margin-top: 20px;
-    margin-bottom: 0;
-    text-shadow:
-	-1px -1px 0 #000,
-	-1px -1px 0 #000,
-	-1px 1px 0 #000,
-	-1px 1px 0 #000;
+  display: block;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
+    -1px 1px 0 #000;
 }
 
 .aboutme-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
 }
 
 /* about me page image and text display and styling settiings*/
 .aboutme-container {
-    display: grid;
-    grid-template-columns: 600px;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    color: white !important;
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.3rem;
-    text-align: center;
-    text-shadow:
-	-1px -1px 0 #000,
-	-1px -1px 0 #000,
-	-1px 1px 0 #000,
-	-1px 1px 0 #000;
+  display: grid;
+  grid-template-columns: 600px;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: white !important;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.3rem;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
+    -1px 1px 0 #000;
 }
-
 
 /* setting for responsive mobile view */
 @media (max-width: 600px) {
-    .aboutme-image {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 320px;
-    }
+  .aboutme-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 320px;
+  }
 
-    .aboutme-container {
-        display: grid;
-        grid-template-columns: 380px;
-        align-items: center;
-        justify-content: center;
-
-    }
+  .aboutme-container {
+    display: grid;
+    grid-template-columns: 380px;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /* styling settings for resume link */
 #resume {
-    text-decoration: none;
-    color: hotpink !important;
-    font-size: 1.5rem !important;
-    text-shadow: none;
+  text-decoration: none;
+  color: hotpink !important;
+  font-size: 1.5rem !important;
+  text-shadow: none;
 }
 
 #resume:hover {
-    background-color: white;
-    border-radius: 5px;
-    padding: 0.3rem;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.3rem;
 }
-
-
 
 /* Portfolio Page */
 
-
-
 /* portfolio heading display and styling settings */
 .portfolio-subheading {
-    display: block;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 2rem;
-    margin-top: 20px;
-    margin-bottom: 0;
-    text-shadow:
-	-1px -1px 0 #000,
-	-1px -1px 0 #000,
-	-1px 1px 0 #000,
-	-1px 1px 0 #000;
+  display: block;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
+    -1px 1px 0 #000;
 }
 
 /* main grid container settings */
 .portfolio_container {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin-top: 30px;;
-    padding: 20px;
-    place-items: center;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 80px;
+  padding: 20px;
+  place-items: center;
 }
 
 /* grid postcard settings */
 .portfolio-grid {
-    display: grid;
-    grid-template-rows: 200px 50px 150px;
-    place-items: center;
-    padding: 1rem;
-    margin: 10px;
-    font-family: 'Oswald', sans-serif;
-    font-size: medium;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    text-align: center;
+  display: grid;
+  grid-template-rows: 200px 50px 150px;
+  place-items: center;
+  padding: 1rem;
+  margin: 10px;
+  font-family: "Oswald", sans-serif;
+  font-size: medium;
+  color: black;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  text-align: center;
 }
 
 /* postcard images display settings */
 .portfolio_container img {
-    width: 250px;
-    height: 150px;
-    border-radius: 8px;
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
 }
 
-
 .blog-subheading {
-    display: block;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 2rem;
-    margin-top: 20px;
-    margin-bottom: 0;
-    text-shadow:
-	-1px -1px 0 #000,
-	-1px -1px 0 #000,
-	-1px 1px 0 #000,
-	-1px 1px 0 #000;
+  display: block;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 0;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
+    -1px 1px 0 #000;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(3, minmax(300px, 1fr));
-    grid-template-rows: 200px;
-    font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-rows: 200px;
+  font-size: 1rem;
 }
 
 .blog-list {
-    display: block;
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    color: black;
-    list-style: none;
-    text-align: center;
-    background-image: url(./images/blog1.jpg);
-    background-size: cover;
-    background-position: center;
-   
+  display: block;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  list-style: none;
+  text-align: center;
+  background-image: url(./images/blog1.jpg);
+  background-size: cover;
+  background-position: center;
 }
-
