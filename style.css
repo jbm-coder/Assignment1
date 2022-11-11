@@ -218,7 +218,7 @@ p {
 /* styling settings for resume link */
 #resume {
   text-decoration: none;
-  color: rgb(236, 9, 9) !important;
+  color: #147fe4 !important;
   font-size: 1.5rem !important;
   text-shadow: none;
   font-weight: bold;
@@ -290,7 +290,6 @@ p {
     -1px 1px 0 #000;
 }
 
-
 ul {
   margin: 0;
   padding: 0;
@@ -324,4 +323,63 @@ ul {
   width: 250px;
   height: 150px;
   border-radius: 8px;
+}
+
+.contactme {
+  font-size: 1.2rem !important;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff !important;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
+    -1px 1px 0 #000;
+  margin-top: 50px;
+  display: grid;
+  place-items: center;
+ 
+}
+
+.contactme-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  font-size: 1.8rem !important;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #147fe4;
+  text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
+    -1px 1px 0 #000;
+}
+
+form {
+  display: grid;
+  width: 350px;
+  place-items: center;
+  margin-top: 20px;
+}
+
+input[type=text], [type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  font-family: "Oswald", sans-serif;
+  padding: 0.5rem;
+  background-color: rgb(54, 53, 53);
+  color: #fdf7f7;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  transition: 0s;
+  text-align: center;
+  width: 200px;
+}
+input[type=submit]:hover {
+  background-color: #147fe4;
+  color: black;
 }
