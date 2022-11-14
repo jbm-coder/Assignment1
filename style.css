@@ -23,14 +23,12 @@ footer {
   padding-top: 15px;
 }
 
-/* Home Page */
-
-/* remove hyperlinks decoration from the header/title */
+/* remove hyperlinks decoration from the header/titles */
 #name-heading {
   text-decoration: none;
 }
-/* styling and display setting for the header/title */
 
+/* styling and display setting for the header/titles */
 #name-heading > h1 {
   font-size: 6rem !important;
   text-align: center;
@@ -39,7 +37,7 @@ footer {
   text-shadow: 5px 5px 5px rgb(133, 132, 132);
 }
 
-/* spacing for the heading */
+/* spacing for the headings */
 h1 {
   margin-bottom: 0;
   margin-top: 0;
@@ -52,71 +50,7 @@ h1 {
   }
 }
 
-/* Social Buttons */
-
-/* display setting for the social buttons and how its displayed*/
-.socials {
-  display: flex;
-  justify-content: center;
-  column-count: 4;
-  column-gap: 40px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-/* setting for responsive mobile view */
-@media (max-width: 400px) {
-  .socials {
-    padding: 0;
-  }
-}
-
-/* Navigation Buttons */
-
-/* settings and styling for navigation buttons */
-.navigation {
-  font-family: "Oswald", sans-serif;
-  display: grid;
-  grid-template-columns: repeat(4, 100px);
-  gap: 80px;
-  padding-top: 30px;
-  justify-content: center;
-}
-
-/* settings for responsive mobile view */
-@media (max-width: 600px) {
-  .navigation {
-    grid-template-columns: repeat(4, 80px);
-    gap: 15px;
-  }
-}
-
-@media (max-width: 400px) {
-  button {
-    margin-bottom: 10px;
-  }
-}
-
-/* display setting for the navigation button */
-.nav-button {
-  padding: 0.3rem;
-  background-color: rgb(54, 53, 53);
-  color: #fdf7f7;
-  border-radius: 15px;
-  border: 2px solid #ffffff;
-  transition: 0s;
-  text-align: center;
-}
-
-/*  action settings for the navigation button */
-.nav-button:hover {
-  color: black;
-  background-color: #147fe4;
-}
-
-/* Main Text Body */
-
-/* container for content */
+/* text setting for contents */
 h2 {
   font-family: "Oswald", sans-serif;
   text-align: center;
@@ -131,6 +65,10 @@ h2 {
 span {
   font-size: 2rem;
 }
+
+
+/* -- Home Page -- */
+
 
 /* main text content style and display settings */
 .home-section-text {
@@ -164,7 +102,75 @@ p {
   margin-top: 0;
 }
 
-/* About Me Page */
+
+/* -- Social Buttons -- */
+
+
+/* display setting for the social buttons and how its displayed*/
+.socials {
+  display: flex;
+  justify-content: center;
+  column-count: 4;
+  column-gap: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+/* setting for responsive mobile view */
+@media (max-width: 400px) {
+  .socials {
+    padding: 0;
+  }
+}
+
+
+/* -- Navigation Buttons -- */
+
+
+/* settings and styling for navigation buttons */
+.navigation {
+  font-family: "Oswald", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 80px;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+/* settings for responsive mobile view */
+@media (max-width: 600px) {
+  .navigation {
+    grid-template-columns: repeat(4, 80px);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  button {
+    margin-bottom: 10px;
+  }
+}
+
+/* display setting for the navigation button, background and hover function */
+.nav-button {
+  padding: 0.3rem;
+  background-color: rgb(54, 53, 53);
+  color: #fdf7f7;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  transition: 0s;
+  text-align: center;
+}
+
+/*  action settings for the navigation button hover */
+.nav-button:hover {
+  color: black;
+  background-color: #147fe4;
+}
+
+
+
+/* -- About Me Page -- */
 
 h2 {
   display: block;
@@ -172,12 +178,13 @@ h2 {
   font-family: "Oswald", sans-serif;
   color: white;
   font-size: 2rem;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 0;
   text-shadow: -1px -1px 0 #000, -1px -1px 0 #000, -1px 1px 0 #000,
     -1px 1px 0 #000;
 }
 
+/* display settings for the about me cartoon image */
 .aboutme-image {
   display: block;
   margin-left: auto;
@@ -235,9 +242,7 @@ h2 {
 }
 
 
-
 /* -- Portfolio Page -- */
-
 
 
 /* main grid container settings */
@@ -274,6 +279,10 @@ h2 {
 }
 
 
+/* -- My Blog Page -- */
+
+
+/* display and text settings for the blog page */
 .blog-container {
   margin: 0;
   padding: 0;
@@ -290,6 +299,7 @@ h2 {
   text-align: center;
 }
 
+/* display settings for the postcards of list of blogs */
 .blog-list {
   display: grid;
   grid-template-rows: 200px 50px 150px;
@@ -304,12 +314,18 @@ h2 {
   text-align: center;
 }
 
+/* image settings for the blog images */
 .blog-list img {
   width: 250px;
   height: 150px;
   border-radius: 8px;
 }
 
+
+/* -- Contact Me -- */
+
+
+/* display and text setting of contact me page */
 .contactme {
   font-size: 1.2rem !important;
   text-align: center;
@@ -322,6 +338,7 @@ h2 {
   place-items: center;
 }
 
+/* desiplay and text setting of the contact details */
 ul {
   font-size: 1.8rem;
   color: #147fe4;
@@ -329,6 +346,7 @@ ul {
   padding-left: 0;
 }
 
+/* display settings of the contact me form */
 form {
   display: grid;
   width: 350px;
