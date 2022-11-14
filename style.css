@@ -253,7 +253,6 @@ h2 {
   grid-auto-flow: row;
   margin-top: 50px;
   padding: 20px;
-  place-items: center;
 }
 
 /* grid postcard settings */
