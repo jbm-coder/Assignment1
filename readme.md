@@ -1,5 +1,6 @@
 # Assignment 1 - Portfolio Website
-##Jonas Manalang
+
+## Jonas Manalang
 
 [Jonas Manalang Profile Website](https://jbm-coder.com/)
 
